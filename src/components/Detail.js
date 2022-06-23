@@ -27,7 +27,7 @@ const Detail = ({exerciseDetail}) => {
         <img src={gifUrl} alt={name} loading='lazy' className='detail-image' />
         <Stack sx={{gap:{lg:'35px',xs:'20px'}}}>
             <Typography variant='h6'>
-                {name}
+                <span style={{ color: "#ff2625", textTransform: "capitalize" }}> {name}</span>
             </Typography>
             <Typography textTransform='capitalize'>
                 Exercises keep you Strong boiz ! {name} is one of the best exercises to target your {target}
