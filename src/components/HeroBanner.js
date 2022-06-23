@@ -12,7 +12,7 @@ const HeroBanner = () => {
       p="20px"
     >
       <Typography color="#FF2625" fontWeight="600" fontSize="26px">
-        Daisey Gym
+        Fitness Club
       </Typography>
       <Typography
         fontWeight={700}
